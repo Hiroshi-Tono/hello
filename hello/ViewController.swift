@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        myLabel.text = "test"
+        myLabel.text = NSLocalizedString("test", comment: "")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
